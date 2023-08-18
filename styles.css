@@ -1,0 +1,447 @@
+/* Styles for the basic layout, header, and navigation */
+/* Add your own styles for fonts, colors, and other design elements */
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background: #2b2a2a;
+}
+
+/* Styles for the header */
+header {
+    background: #424242;
+    color: #e50914;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+}
+
+
+
+.logo a {
+    font-size: 24px;
+    font-family: bignoodletitling;
+    font-weight: bold;
+    color: #e50914;
+    text-decoration: none;
+    width: 30%;
+    margin-left: 5px;
+}
+
+.logo img {
+    height: 25px;
+    width: 25px;
+    float: left;
+    text-decoration: none;
+}
+
+.logo img:hover {
+    content: url("./web.png");
+    width: 30px;
+    height: 30px;
+
+}
+
+.logo a:hover {
+    color: #ebe3e4;
+    font-size: 30px;
+}
+
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 15px;
+    padding-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e50914;
+    font-family: bignoodletitling;
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ebe3e4;
+    font-size: 30px;
+}
+
+
+
+/* ... (previous styles) ... */
+
+/* Additional styling for hero section */
+.hero {
+    background-image: url(./Akash\ Gupta.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    top: 68px;
+    position: sticky;
+    z-index: 1;
+}
+
+.hero-content {
+    font-family: 'Kanit', sans-serif;
+    margin-left: 55%;
+    padding-top: 8%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-content h1 {
+    font-family: 'Caveat', cursive;
+    font-style: italic;
+    color: rgb(236, 56, 56);
+}
+
+.hero h1 {
+    font-size: 59px;
+    margin-bottom: 20px;
+}
+
+.hero h1:hover {
+    font-size: 65px;
+    color: #ebe3e4;
+}
+
+.hero p {
+    font-size: 29px;
+    margin-bottom: 30px;
+    font-family: 'Kanit', sans-serif;
+    background: linear-gradient(to right, rgb(167, 139, 2), rgb(245, 70, 47));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+
+}
+
+.hero p:hover {
+    font-size: 35px;
+    background: linear-gradient(to right, rgb(245, 70, 47), rgb(255, 215, 0));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.mail {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 21px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.mail:hover {
+    font-size: 25px;
+    color: #e50914;
+}
+
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+
+.cta-button:hover {
+    font-size: 25px;
+    color: #e50914;
+    background-color: whitesmoke;
+}
+
+/* ... (previous styles) ... */
+
+/* Additional styling for projects section */
+.content {
+    position: relative;
+    z-index: 2;
+}
+
+.content h2 {
+    color: rgb(236, 56, 56);
+}
+
+.projects {
+    background-color: #2b2a2a;
+    padding: 50px;
+    text-align: center;
+    color: #ebe3e4;
+}
+
+.projects h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-item {
+    background-color: #141414;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.project-details {
+    padding: 20px;
+}
+
+.project-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+
+/* ... (previous styles) ... */
+
+/* Additional styling for about section */
+.about {
+    background-color: #141414;
+    padding: 50px;
+    text-align: center;
+    color: #ebe3e4;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+
+}
+
+
+/* ... (previous styles) ... */
+
+/* Additional styling for contact section */
+.contact {
+    background-color: #2b2a2a;
+    padding: 10px;
+    text-align: center;
+    color: #ebe3e4;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.contact p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.contact-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-list a {
+    text-decoration: none;
+    color: #e50914;
+    transition: color 0.3s;
+}
+
+.contact-list a:hover {
+    color: #b2060b;
+}
+
+/* ... (previous styles) ... */
+
+/* Additional styling for experience section */
+.experience {
+    background-color: #2b2a2a;
+    padding: 50px;
+    text-align: center;
+    color: #ebe3e4;
+}
+
+.experience h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.experience-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.experience-item {
+    background-color: #141414;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+}
+
+.experience-details {
+    padding: 20px;
+}
+
+.experience-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.experience-description {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+
+/* ... (previous styles) ... */
+
+/* Additional styling for education section */
+.education {
+    background-color: #141414;
+    padding: 50px;
+    text-align: center;
+    color: #ebe3e4;
+}
+
+.education h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.education-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.education-item {
+    background-color: #2b2a2a;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+}
+
+.education-details {
+    padding: 20px;
+}
+
+.education-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.education-description {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+/* Social icons */
+.social-share-container {
+    position: relative;
+    display: inline-block;
+}
+
+.share-button {
+    width: 60px;
+    height: 60px;
+    background-color: #1877f2;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.social-icons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0) rotate(0deg);
+    transform-origin: top left;
+    transition: transform 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: white;
+    border-radius: 50%;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transform: translateX(100px);
+    /* Initial position */
+}
+
+.social-icon i {
+    font-size: 20px;
+}
